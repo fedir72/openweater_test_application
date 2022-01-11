@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		74329BB06FAC1C674121F8C3 /* Pods_openweatermap_testproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AB0314EEF84890A70EC471 /* Pods_openweatermap_testproject.framework */; };
+		BD316BFA278D863F00DA0C94 /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD316BF9278D863F00DA0C94 /* CurrentViewController.swift */; };
+		BD316BFC278D86EB00DA0C94 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD316BFB278D86EB00DA0C94 /* FavoriteViewController.swift */; };
+		BD316BFE278D872600DA0C94 /* EditListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD316BFD278D872600DA0C94 /* EditListViewController.swift */; };
 		BDD1F53F278D816F00613D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1F53E278D816F00613D5F /* AppDelegate.swift */; };
 		BDD1F541278D816F00613D5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1F540278D816F00613D5F /* SceneDelegate.swift */; };
-		BDD1F543278D816F00613D5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1F542278D816F00613D5F /* ViewController.swift */; };
 		BDD1F546278D816F00613D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD1F544278D816F00613D5F /* Main.storyboard */; };
 		BDD1F548278D817000613D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD1F547278D817000613D5F /* Assets.xcassets */; };
 		BDD1F54B278D817000613D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD1F549278D817000613D5F /* LaunchScreen.storyboard */; };
@@ -20,10 +22,12 @@
 		3015977C0C37F207FA4A5DB9 /* Pods-openweatermap_testproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openweatermap_testproject.debug.xcconfig"; path = "Target Support Files/Pods-openweatermap_testproject/Pods-openweatermap_testproject.debug.xcconfig"; sourceTree = "<group>"; };
 		4C2F9262FF42A1F210D5B850 /* Pods-openweatermap_testproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openweatermap_testproject.release.xcconfig"; path = "Target Support Files/Pods-openweatermap_testproject/Pods-openweatermap_testproject.release.xcconfig"; sourceTree = "<group>"; };
 		53AB0314EEF84890A70EC471 /* Pods_openweatermap_testproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openweatermap_testproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD316BF9278D863F00DA0C94 /* CurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
+		BD316BFB278D86EB00DA0C94 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		BD316BFD278D872600DA0C94 /* EditListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListViewController.swift; sourceTree = "<group>"; };
 		BDD1F53B278D816F00613D5F /* openweatermap_testproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openweatermap_testproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1F53E278D816F00613D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD1F540278D816F00613D5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDD1F542278D816F00613D5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BDD1F545278D816F00613D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDD1F547278D817000613D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDD1F54A278D817000613D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,8 +60,24 @@
 				3015977C0C37F207FA4A5DB9 /* Pods-openweatermap_testproject.debug.xcconfig */,
 				4C2F9262FF42A1F210D5B850 /* Pods-openweatermap_testproject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD2B1657278D8E0800B02623 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BD316BF8278D860000DA0C94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD316BF9278D863F00DA0C94 /* CurrentViewController.swift */,
+				BD316BFB278D86EB00DA0C94 /* FavoriteViewController.swift */,
+				BD316BFD278D872600DA0C94 /* EditListViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		BDD1F532278D816F00613D5F = {
@@ -83,11 +103,12 @@
 			children = (
 				BDD1F53E278D816F00613D5F /* AppDelegate.swift */,
 				BDD1F540278D816F00613D5F /* SceneDelegate.swift */,
-				BDD1F542278D816F00613D5F /* ViewController.swift */,
 				BDD1F544278D816F00613D5F /* Main.storyboard */,
-				BDD1F547278D817000613D5F /* Assets.xcassets */,
 				BDD1F549278D817000613D5F /* LaunchScreen.storyboard */,
+				BDD1F547278D817000613D5F /* Assets.xcassets */,
 				BDD1F54C278D817000613D5F /* Info.plist */,
+				BD2B1657278D8E0800B02623 /* DataManager */,
+				BD316BF8278D860000DA0C94 /* Controllers */,
 			);
 			path = openweatermap_testproject;
 			sourceTree = "<group>";
@@ -207,8 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDD1F543278D816F00613D5F /* ViewController.swift in Sources */,
+				BD316BFE278D872600DA0C94 /* EditListViewController.swift in Sources */,
 				BDD1F53F278D816F00613D5F /* AppDelegate.swift in Sources */,
+				BD316BFA278D863F00DA0C94 /* CurrentViewController.swift in Sources */,
+				BD316BFC278D86EB00DA0C94 /* FavoriteViewController.swift in Sources */,
 				BDD1F541278D816F00613D5F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
