@@ -17,6 +17,10 @@
 		BD2B1667278D916500B02623 /* ModelWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B1666278D916500B02623 /* ModelWeather.swift */; };
 		BD2B1669278D919000B02623 /* WeatherDateSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B1668278D919000B02623 /* WeatherDateSource.swift */; };
 		BD2B166B278D91A100B02623 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B166A278D91A100B02623 /* NetworkManager.swift */; };
+		BD2B166F278D92E300B02623 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B166E278D92E300B02623 /* MapViewController.swift */; };
+		BD2B1672278D934B00B02623 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B1671278D934B00B02623 /* Helpers.swift */; };
+		BD2B1677278D94A000B02623 /* EditCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B1675278D94A000B02623 /* EditCell.swift */; };
+		BD2B1678278D94A000B02623 /* EditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2B1676278D94A000B02623 /* EditCell.xib */; };
 		BD316BFA278D863F00DA0C94 /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD316BF9278D863F00DA0C94 /* CurrentViewController.swift */; };
 		BD316BFC278D86EB00DA0C94 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD316BFB278D86EB00DA0C94 /* FavoriteViewController.swift */; };
 		BD316BFE278D872600DA0C94 /* EditListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD316BFD278D872600DA0C94 /* EditListViewController.swift */; };
@@ -40,6 +44,10 @@
 		BD2B1666278D916500B02623 /* ModelWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWeather.swift; sourceTree = "<group>"; };
 		BD2B1668278D919000B02623 /* WeatherDateSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDateSource.swift; sourceTree = "<group>"; };
 		BD2B166A278D91A100B02623 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BD2B166E278D92E300B02623 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		BD2B1671278D934B00B02623 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		BD2B1675278D94A000B02623 /* EditCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCell.swift; sourceTree = "<group>"; };
+		BD2B1676278D94A000B02623 /* EditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditCell.xib; sourceTree = "<group>"; };
 		BD316BF9278D863F00DA0C94 /* CurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
 		BD316BFB278D86EB00DA0C94 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		BD316BFD278D872600DA0C94 /* EditListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListViewController.swift; sourceTree = "<group>"; };
@@ -102,14 +110,41 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
+		BD2B1670278D932800B02623 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B1671278D934B00B02623 /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BD2B1673278D945B00B02623 /* EditListVC */ = {
+			isa = PBXGroup;
+			children = (
+				BD316BFD278D872600DA0C94 /* EditListViewController.swift */,
+				BD2B1674278D947500B02623 /* Cell */,
+			);
+			path = EditListVC;
+			sourceTree = "<group>";
+		};
+		BD2B1674278D947500B02623 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B1675278D94A000B02623 /* EditCell.swift */,
+				BD2B1676278D94A000B02623 /* EditCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		BD316BF8278D860000DA0C94 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				BD2B165C278D8FB500B02623 /* MainViewController.swift */,
 				BD316BF9278D863F00DA0C94 /* CurrentViewController.swift */,
 				BD316BFB278D86EB00DA0C94 /* FavoriteViewController.swift */,
-				BD316BFD278D872600DA0C94 /* EditListViewController.swift */,
 				BD2B165E278D905300B02623 /* PlaceViewController.swift */,
+				BD2B1673278D945B00B02623 /* EditListVC */,
+				BD2B166E278D92E300B02623 /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -141,6 +176,7 @@
 				BDD1F549278D817000613D5F /* LaunchScreen.storyboard */,
 				BDD1F547278D817000613D5F /* Assets.xcassets */,
 				BDD1F54C278D817000613D5F /* Info.plist */,
+				BD2B1670278D932800B02623 /* Helpers */,
 				BD2B1660278D90E700B02623 /* Network */,
 				BD2B1657278D8E0800B02623 /* DataManager */,
 				BD316BF8278D860000DA0C94 /* Controllers */,
@@ -211,6 +247,7 @@
 				BDD1F54B278D817000613D5F /* LaunchScreen.storyboard in Resources */,
 				BDD1F548278D817000613D5F /* Assets.xcassets in Resources */,
 				BDD1F546278D816F00613D5F /* Main.storyboard in Resources */,
+				BD2B1678278D94A000B02623 /* EditCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,10 +309,13 @@
 				BD2B1667278D916500B02623 /* ModelWeather.swift in Sources */,
 				BD2B1669278D919000B02623 /* WeatherDateSource.swift in Sources */,
 				BD316BFC278D86EB00DA0C94 /* FavoriteViewController.swift in Sources */,
+				BD2B1677278D94A000B02623 /* EditCell.swift in Sources */,
 				BD2B1665278D915000B02623 /* ModelForcast.swift in Sources */,
 				BD2B166B278D91A100B02623 /* NetworkManager.swift in Sources */,
+				BD2B1672278D934B00B02623 /* Helpers.swift in Sources */,
 				BD2B1659278D8F0700B02623 /* UserModel.swift in Sources */,
 				BDD1F541278D816F00613D5F /* SceneDelegate.swift in Sources */,
+				BD2B166F278D92E300B02623 /* MapViewController.swift in Sources */,
 				BD2B165D278D8FB500B02623 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
