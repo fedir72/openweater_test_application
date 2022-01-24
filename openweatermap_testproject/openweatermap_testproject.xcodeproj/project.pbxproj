@@ -155,13 +155,13 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		BD2B1673278D945B00B02623 /* EditListVC */ = {
+		BD2B1673278D945B00B02623 /* EditListViewController */ = {
 			isa = PBXGroup;
 			children = (
 				BD316BFD278D872600DA0C94 /* EditListViewController.swift */,
 				BD2B1674278D947500B02623 /* Cell */,
 			);
-			path = EditListVC;
+			path = EditListViewController;
 			sourceTree = "<group>";
 		};
 		BD2B1674278D947500B02623 /* Cell */ = {
@@ -181,7 +181,7 @@
 				BD316BFB278D86EB00DA0C94 /* FavoriteViewController.swift */,
 				BD2B165E278D905300B02623 /* PlaceViewController.swift */,
 				BD7E528F278F277000A7CA0A /* ForeCastViewController */,
-				BD2B1673278D945B00B02623 /* EditListVC */,
+				BD2B1673278D945B00B02623 /* EditListViewController */,
 				BD2B166E278D92E300B02623 /* MapViewController.swift */,
 			);
 			path = Controllers;
@@ -234,8 +234,8 @@
 		BD7E528F278F277000A7CA0A /* ForeCastViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BD7E5290278F278700A7CA0A /* ForeCastCell */,
 				BD7E528D278F268800A7CA0A /* ForeCastViewController.swift */,
+				BD7E5290278F278700A7CA0A /* ForeCastCell */,
 			);
 			path = ForeCastViewController;
 			sourceTree = "<group>";
