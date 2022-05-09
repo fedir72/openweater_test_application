@@ -42,6 +42,11 @@
 		BD7E5293278F27B700A7CA0A /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7E5291278F27B700A7CA0A /* ForecastCell.swift */; };
 		BD7E5294278F27B700A7CA0A /* ForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7E5292278F27B700A7CA0A /* ForecastCell.xib */; };
 		BD87434B279ABBF9008089EF /* ModelsForHourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD87434A279ABBF9008089EF /* ModelsForHourlyForecast.swift */; };
+		BD89A39427B5755F0027F128 /* cat.json in Resources */ = {isa = PBXBuildFile; fileRef = BD89A39327B5755F0027F128 /* cat.json */; };
+		BDB896E32816806B00889809 /* cityListSearchByNAme.json in Resources */ = {isa = PBXBuildFile; fileRef = BDB896E22816806B00889809 /* cityListSearchByNAme.json */; };
+		BDB9951E28144B0B001FD7ED /* NetworkManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB9951D28144B0B001FD7ED /* NetworkManager2.swift */; };
+		BDB9952128145187001FD7ED /* OneCall.json in Resources */ = {isa = PBXBuildFile; fileRef = BDB9952028145187001FD7ED /* OneCall.json */; };
+		BDB99524281452D3001FD7ED /* QurrentByName.json in Resources */ = {isa = PBXBuildFile; fileRef = BDB99523281452D3001FD7ED /* QurrentByName.json */; };
 		BDD1F53F278D816F00613D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1F53E278D816F00613D5F /* AppDelegate.swift */; };
 		BDD1F541278D816F00613D5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1F540278D816F00613D5F /* SceneDelegate.swift */; };
 		BDD1F546278D816F00613D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD1F544278D816F00613D5F /* Main.storyboard */; };
@@ -87,6 +92,11 @@
 		BD7E5291278F27B700A7CA0A /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
 		BD7E5292278F27B700A7CA0A /* ForecastCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForecastCell.xib; sourceTree = "<group>"; };
 		BD87434A279ABBF9008089EF /* ModelsForHourlyForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsForHourlyForecast.swift; sourceTree = "<group>"; };
+		BD89A39327B5755F0027F128 /* cat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cat.json; sourceTree = "<group>"; };
+		BDB896E22816806B00889809 /* cityListSearchByNAme.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cityListSearchByNAme.json; sourceTree = "<group>"; };
+		BDB9951D28144B0B001FD7ED /* NetworkManager2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager2.swift; sourceTree = "<group>"; };
+		BDB9952028145187001FD7ED /* OneCall.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OneCall.json; sourceTree = "<group>"; };
+		BDB99523281452D3001FD7ED /* QurrentByName.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = QurrentByName.json; sourceTree = "<group>"; };
 		BDD1F53B278D816F00613D5F /* openweatermap_testproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openweatermap_testproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD1F53E278D816F00613D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD1F540278D816F00613D5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,12 +147,11 @@
 		BD2B1660278D90E700B02623 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				BD2B1661278D912700B02623 /* ModelCity.swift */,
-				BD2B1664278D915000B02623 /* ModelForcast.swift */,
-				BD2B1666278D916500B02623 /* ModelWeather.swift */,
+				BDB995222814520E001FD7ED /* models */,
+				BDB9951F28145155001FD7ED /* jsonFilesExamples */,
 				BD2B1668278D919000B02623 /* WeatherDateSource.swift */,
 				BD2B166A278D91A100B02623 /* NetworkManager.swift */,
-				BD87434A279ABBF9008089EF /* ModelsForHourlyForecast.swift */,
+				BDB9951D28144B0B001FD7ED /* NetworkManager2.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -177,9 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				BD2B165C278D8FB500B02623 /* MainViewController.swift */,
-				BD68FE0E279B2C4600061596 /* CurrentController */,
 				BD316BFB278D86EB00DA0C94 /* FavoriteViewController.swift */,
 				BD2B165E278D905300B02623 /* PlaceViewController.swift */,
+				BD68FE0E279B2C4600061596 /* CurrentController */,
 				BD7E528F278F277000A7CA0A /* ForeCastViewController */,
 				BD2B1673278D945B00B02623 /* EditListViewController */,
 				BD2B166E278D92E300B02623 /* MapViewController.swift */,
@@ -216,6 +225,7 @@
 		BD7E5274278F258100A7CA0A /* lottieFiles */ = {
 			isa = PBXGroup;
 			children = (
+				BD89A39327B5755F0027F128 /* cat.json */,
 				BD7E527A278F25A400A7CA0A /* blizzard.json */,
 				BD7E5276278F25A400A7CA0A /* brokenclouds.json */,
 				BD7E527E278F25A400A7CA0A /* clear.json */,
@@ -260,6 +270,27 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		BDB9951F28145155001FD7ED /* jsonFilesExamples */ = {
+			isa = PBXGroup;
+			children = (
+				BDB9952028145187001FD7ED /* OneCall.json */,
+				BDB99523281452D3001FD7ED /* QurrentByName.json */,
+				BDB896E22816806B00889809 /* cityListSearchByNAme.json */,
+			);
+			path = jsonFilesExamples;
+			sourceTree = "<group>";
+		};
+		BDB995222814520E001FD7ED /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BD87434A279ABBF9008089EF /* ModelsForHourlyForecast.swift */,
+				BD2B1666278D916500B02623 /* ModelWeather.swift */,
+				BD2B1664278D915000B02623 /* ModelForcast.swift */,
+				BD2B1661278D912700B02623 /* ModelCity.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		BDD1F532278D816F00613D5F = {
 			isa = PBXGroup;
 			children = (
@@ -284,12 +315,12 @@
 				BD7E5295278F310C00A7CA0A /* Application */,
 				BDD1F547278D817000613D5F /* Assets.xcassets */,
 				BDD1F54C278D817000613D5F /* Info.plist */,
+				BD2B1660278D90E700B02623 /* Network */,
 				BD68FE14279B330900061596 /* LocationManager */,
 				BD2B1657278D8E0800B02623 /* DataManager */,
 				BD316BF8278D860000DA0C94 /* Controllers */,
 				BD7E5274278F258100A7CA0A /* lottieFiles */,
 				BD2B1670278D932800B02623 /* Helpers */,
-				BD2B1660278D90E700B02623 /* Network */,
 			);
 			path = openweatermap_testproject;
 			sourceTree = "<group>";
@@ -356,6 +387,7 @@
 			files = (
 				BD7E5288278F25A400A7CA0A /* fog.json in Resources */,
 				BD7E5282278F25A400A7CA0A /* cloudsandsun.json in Resources */,
+				BD89A39427B5755F0027F128 /* cat.json in Resources */,
 				BDD1F54B278D817000613D5F /* LaunchScreen.storyboard in Resources */,
 				BD7E5287278F25A400A7CA0A /* rainfall.json in Resources */,
 				BD7E528A278F25A400A7CA0A /* rain.json in Resources */,
@@ -367,10 +399,13 @@
 				BD7E5283278F25A400A7CA0A /* clouds.json in Resources */,
 				BD7E5281278F25A400A7CA0A /* brokenclouds.json in Resources */,
 				BD7E5284278F25A400A7CA0A /* thunderstorm.json in Resources */,
+				BDB896E32816806B00889809 /* cityListSearchByNAme.json in Resources */,
 				BD7E5289278F25A400A7CA0A /* clear.json in Resources */,
+				BDB99524281452D3001FD7ED /* QurrentByName.json in Resources */,
 				BD68FE13279B2C7800061596 /* HourlyCell.xib in Resources */,
 				BD2B1678278D94A000B02623 /* EditCell.xib in Resources */,
 				BD7E5286278F25A400A7CA0A /* snow.json in Resources */,
+				BDB9952128145187001FD7ED /* OneCall.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +475,7 @@
 				BD2B1665278D915000B02623 /* ModelForcast.swift in Sources */,
 				BD2B166B278D91A100B02623 /* NetworkManager.swift in Sources */,
 				BD2B1672278D934B00B02623 /* Helpers.swift in Sources */,
+				BDB9951E28144B0B001FD7ED /* NetworkManager2.swift in Sources */,
 				BD7E528E278F268800A7CA0A /* ForeCastViewController.swift in Sources */,
 				BD2B1659278D8F0700B02623 /* UserModel.swift in Sources */,
 				BDD1F541278D816F00613D5F /* SceneDelegate.swift in Sources */,
