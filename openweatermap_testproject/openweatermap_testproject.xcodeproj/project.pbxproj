@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74329BB06FAC1C674121F8C3 /* Pods_openweatermap_testproject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AB0314EEF84890A70EC471 /* Pods_openweatermap_testproject.framework */; };
 		BD2B1659278D8F0700B02623 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B1658278D8F0700B02623 /* UserModel.swift */; };
 		BD2B165B278D8F1B00B02623 /* WeaterMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B165A278D8F1B00B02623 /* WeaterMode.swift */; };
 		BD2B165D278D8FB500B02623 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B165C278D8FB500B02623 /* MainViewController.swift */; };
@@ -43,6 +42,12 @@
 		BD7E5294278F27B700A7CA0A /* ForecastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7E5292278F27B700A7CA0A /* ForecastCell.xib */; };
 		BD87434B279ABBF9008089EF /* ModelsForHourlyForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD87434A279ABBF9008089EF /* ModelsForHourlyForecast.swift */; };
 		BD89A39427B5755F0027F128 /* cat.json in Resources */ = {isa = PBXBuildFile; fileRef = BD89A39327B5755F0027F128 /* cat.json */; };
+		BDB75AE22915434700E17AEE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BDB75AE12915434700E17AEE /* Realm */; };
+		BDB75AE42915434700E17AEE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BDB75AE32915434700E17AEE /* RealmSwift */; };
+		BDB75AE7291543AD00E17AEE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = BDB75AE6291543AD00E17AEE /* SDWebImage */; };
+		BDB75AEA2915440400E17AEE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BDB75AE92915440400E17AEE /* SnapKit */; };
+		BDB75AED291544A800E17AEE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BDB75AEC291544A800E17AEE /* Lottie */; };
+		BDB75AF02915455600E17AEE /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = BDB75AEF2915455600E17AEE /* Moya */; };
 		BDB896E32816806B00889809 /* cityListSearchByNAme.json in Resources */ = {isa = PBXBuildFile; fileRef = BDB896E22816806B00889809 /* cityListSearchByNAme.json */; };
 		BDB9951E28144B0B001FD7ED /* NetworkManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB9951D28144B0B001FD7ED /* NetworkManager2.swift */; };
 		BDB9952128145187001FD7ED /* OneCall.json in Resources */ = {isa = PBXBuildFile; fileRef = BDB9952028145187001FD7ED /* OneCall.json */; };
@@ -55,9 +60,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3015977C0C37F207FA4A5DB9 /* Pods-openweatermap_testproject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openweatermap_testproject.debug.xcconfig"; path = "Target Support Files/Pods-openweatermap_testproject/Pods-openweatermap_testproject.debug.xcconfig"; sourceTree = "<group>"; };
-		4C2F9262FF42A1F210D5B850 /* Pods-openweatermap_testproject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openweatermap_testproject.release.xcconfig"; path = "Target Support Files/Pods-openweatermap_testproject/Pods-openweatermap_testproject.release.xcconfig"; sourceTree = "<group>"; };
-		53AB0314EEF84890A70EC471 /* Pods_openweatermap_testproject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openweatermap_testproject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2B1658278D8F0700B02623 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BD2B165A278D8F1B00B02623 /* WeaterMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaterMode.swift; sourceTree = "<group>"; };
 		BD2B165C278D8FB500B02623 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -111,26 +113,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74329BB06FAC1C674121F8C3 /* Pods_openweatermap_testproject.framework in Frameworks */,
+				BDB75AED291544A800E17AEE /* Lottie in Frameworks */,
+				BDB75AE7291543AD00E17AEE /* SDWebImage in Frameworks */,
+				BDB75AF02915455600E17AEE /* Moya in Frameworks */,
+				BDB75AEA2915440400E17AEE /* SnapKit in Frameworks */,
+				BDB75AE42915434700E17AEE /* RealmSwift in Frameworks */,
+				BDB75AE22915434700E17AEE /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7748059F4AD199BF1288553 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				53AB0314EEF84890A70EC471 /* Pods_openweatermap_testproject.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		ABC517EF88B2DD9AFB4E2C86 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3015977C0C37F207FA4A5DB9 /* Pods-openweatermap_testproject.debug.xcconfig */,
-				4C2F9262FF42A1F210D5B850 /* Pods-openweatermap_testproject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -297,7 +294,6 @@
 				BDD1F53D278D816F00613D5F /* openweatermap_testproject */,
 				BDD1F53C278D816F00613D5F /* Products */,
 				ABC517EF88B2DD9AFB4E2C86 /* Pods */,
-				A7748059F4AD199BF1288553 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -332,17 +328,23 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDD1F54F278D817000613D5F /* Build configuration list for PBXNativeTarget "openweatermap_testproject" */;
 			buildPhases = (
-				D79972A09415EC53115B63C3 /* [CP] Check Pods Manifest.lock */,
 				BDD1F537278D816F00613D5F /* Sources */,
 				BDD1F538278D816F00613D5F /* Frameworks */,
 				BDD1F539278D816F00613D5F /* Resources */,
-				0F066F4299C41E0588753A46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = openweatermap_testproject;
+			packageProductDependencies = (
+				BDB75AE12915434700E17AEE /* Realm */,
+				BDB75AE32915434700E17AEE /* RealmSwift */,
+				BDB75AE6291543AD00E17AEE /* SDWebImage */,
+				BDB75AE92915440400E17AEE /* SnapKit */,
+				BDB75AEC291544A800E17AEE /* Lottie */,
+				BDB75AEF2915455600E17AEE /* Moya */,
+			);
 			productName = openweatermap_testproject;
 			productReference = BDD1F53B278D816F00613D5F /* openweatermap_testproject.app */;
 			productType = "com.apple.product-type.application";
@@ -371,6 +373,13 @@
 				Base,
 			);
 			mainGroup = BDD1F532278D816F00613D5F;
+			packageReferences = (
+				BDB75AE02915434700E17AEE /* XCRemoteSwiftPackageReference "realm-swift" */,
+				BDB75AE5291543AD00E17AEE /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				BDB75AE82915440400E17AEE /* XCRemoteSwiftPackageReference "SnapKit" */,
+				BDB75AEB291544A800E17AEE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				BDB75AEE2915455600E17AEE /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = BDD1F53C278D816F00613D5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -410,48 +419,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0F066F4299C41E0588753A46 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-openweatermap_testproject/Pods-openweatermap_testproject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-openweatermap_testproject/Pods-openweatermap_testproject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-openweatermap_testproject/Pods-openweatermap_testproject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D79972A09415EC53115B63C3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-openweatermap_testproject-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BDD1F537278D816F00613D5F /* Sources */ = {
@@ -624,7 +591,6 @@
 		};
 		BDD1F550278D817000613D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3015977C0C37F207FA4A5DB9 /* Pods-openweatermap_testproject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -633,12 +599,12 @@
 				DEVELOPMENT_TEAM = YPXDVQFQ53;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = openweatermap_testproject/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Pleace allow to use your location for weather application";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -654,7 +620,6 @@
 		};
 		BDD1F551278D817000613D5F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C2F9262FF42A1F210D5B850 /* Pods-openweatermap_testproject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -663,12 +628,12 @@
 				DEVELOPMENT_TEAM = YPXDVQFQ53;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = openweatermap_testproject/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Pleace allow to use your location for weather application";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -704,6 +669,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDB75AE02915434700E17AEE /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		BDB75AE5291543AD00E17AEE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		BDB75AE82915440400E17AEE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		BDB75AEB291544A800E17AEE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		BDB75AEE2915455600E17AEE /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDB75AE12915434700E17AEE /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDB75AE02915434700E17AEE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		BDB75AE32915434700E17AEE /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDB75AE02915434700E17AEE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		BDB75AE6291543AD00E17AEE /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDB75AE5291543AD00E17AEE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		BDB75AE92915440400E17AEE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDB75AE82915440400E17AEE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		BDB75AEC291544A800E17AEE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDB75AEB291544A800E17AEE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		BDB75AEF2915455600E17AEE /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDB75AEE2915455600E17AEE /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDD1F533278D816F00613D5F /* Project object */;
 }
